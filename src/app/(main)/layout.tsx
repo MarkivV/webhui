@@ -3,6 +3,7 @@ import type { PropsWithChildren } from "react";
 import { fontsVariables } from "@/lib/font";
 import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/sonner";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default async function RootLayout({ children }: PropsWithChildren) {
 	return (
@@ -26,6 +27,7 @@ export default async function RootLayout({ children }: PropsWithChildren) {
 					<Toaster />
 				</div>
 			</body>
+			<GoogleAnalytics gaId="G-J2LGCN4V1Q" />
 		</html>
 	);
 }
