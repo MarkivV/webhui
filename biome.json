@@ -1,0 +1,25 @@
+{
+	"files": {
+		"ignore": ["node_modules", ".next"]
+	},
+	"linter": {
+		"rules": {
+			"recommended": true,
+			"a11y": {
+				"useButtonType": "off",
+				"useValidAnchor": "off"
+			}
+		}
+	},
+	"overrides": [
+		{
+			"linter": {
+				"rules": {
+					"style": {
+						"noDefaultExport": "off"
+					}
+				}
+			}
+		}
+	]
+}

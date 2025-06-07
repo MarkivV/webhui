@@ -1,0 +1,14 @@
+/node_modules
+/.next/
+/build
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+generators
+.husky
+.vscode
+.idea
+.dockerignore
+.git
+out

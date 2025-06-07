@@ -1,0 +1,13 @@
+{
+	"name": "web-app",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+	"customizations": {
+		"vscode": {
+			// "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+		}
+	},
+	"postCreateCommand": "pnpm run install",
+	"postAttachCommand": "pnpm run dev",
+	"forwardPorts": [3000],
+	"runArgs": ["--memory=4gb", "--cpus=2"]
+}
