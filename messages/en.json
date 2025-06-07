@@ -1,7 +1,0 @@
-{
-	"home": {
-		"greetings": "hello world",
-		"price": "This product costs {price, number, currency}",
-		"ordered": "Ordered on {orderDate, date, short}"
-	}
-}

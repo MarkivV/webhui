@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Zap, TrendingUp, DollarSign, Mail } from "lucide-react";
+import { toast } from "sonner";
 
 export default function CryptoHeroForm() {
 	const [email, setEmail] = useState("");
@@ -32,7 +33,7 @@ export default function CryptoHeroForm() {
 		});
 		setIsSubmitting(false);
 		setEmail("");
-		alert("Thank you! We'll be in touch soon.");
+		toast.success("Email sent successfully!");
 	};
 
 	return (
