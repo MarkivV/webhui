@@ -49,7 +49,7 @@ export default function CryptoHeroForm() {
 					</div>
 					<div className="flex items-center space-x-2 text-sm text-gray-300">
 						<Mail className="h-4 w-4" />
-						<span>Contact: email@mail.ru</span>
+						<span>Contact: contact@solads.biz</span>
 					</div>
 				</div>
 
