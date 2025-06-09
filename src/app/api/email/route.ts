@@ -26,8 +26,18 @@ export async function POST(request: Request) {
 		},
 	});
 
-	const title = "Title";
-	const description = "<p>Description</p>";
+	const title = "Thank You for Choosing SolAds!";
+	const description = `
+  <p>Hello!</p>
+  <p>Thank you for choosing <strong>SolAds</strong>.</p>
+  <p>We appreciate your trust and will be in touch within 24 hours to discuss the next steps.</p>
+  <p>If you have any urgent questions, please reach our support team:</p>
+  <ul>
+    <li>Email: <a href="mailto:support@solads.com">contact@solads.com</a></li>
+  </ul>
+  <p>Best regards,</p>
+  <p><strong>The SolAds Team</strong></p>
+`;
 
 	try {
 		await transporter.sendMail({
