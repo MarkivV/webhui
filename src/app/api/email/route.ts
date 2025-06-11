@@ -28,20 +28,19 @@ export async function POST(request: Request) {
 
 	const title = "Your ads on Solana blockchain";
 	const description = `
-  <p>Hi, great to hear from you!</p>
-  <p>Since you found us through our own ads, you’ve already seen how effective they are.</p>
-  <p>We use on-chain data to target real users who are likely interested in your project.</p>
-  <br>
-  <p>Please share a few details about your project:</p>
-  <ul>
-    <li><strong>What is it all about?</strong></li>
-    <li><strong>What kind of audience are you looking to reach?</strong></li>
-    <li><strong>Any budget range we should keep in mind?</strong></li>
-  </ul>
-  <p>Looking forward to hearing from you!</p>
-  <br>
-  <p><strong>The SolAds Team</strong><br>
-  <a href="https://solads.biz">solads.biz</a></p>
+Hi, great to hear from you!
+
+Since you found us through our own ads, you’ve already seen how effective they are.
+
+We use on-chain data to target real users who are likely interested in your project.
+
+Feel free to share more about what you do or ask any questions.
+
+When you're ready, let us know which package you prefer. Our 1M impressions package is the most popular to start seeing results. Once confirmed, we can process payment and launch your campaign right away.
+
+Looking forward to hearing from you!
+
+solads.biz
 `;
 
 	try {
