@@ -28,17 +28,12 @@ export async function POST(request: Request) {
 
 	const title = "Your ads on Solana blockchain";
 	const description = `
-Hi, great to hear from you!
-
-Since you found us through our own ads, you’ve already seen how effective they are.
-
-We use on-chain data to target real users who are likely interested in your project.
-
-Please share what’s your project all about? What kind of audience are you looking to reach? Any budget range we should keep in mind?
-
-Looking forward to hearing from you!
-
-solads.biz
+  <p>Hi, great to hear from you!</p>
+  <p>Since you found us through our own ads, you’ve already seen how effective they are.</p>
+  <p>We use on-chain data to target real users who are likely interested in your project.</p>
+  <p>Please share what’s your project all about? What kind of audience are you looking to reach? Any budget range we should keep in mind?</p>
+  <p>Looking forward to hearing from you!</p>
+  <p><a href="https://solads.biz">solads.biz</a></p>
 `;
 
 	try {
