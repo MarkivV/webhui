@@ -26,17 +26,22 @@ export async function POST(request: Request) {
 		},
 	});
 
-	const title = "Thank You for Choosing SolAds!";
+	const title = "Your ads on Solana blockchain";
 	const description = `
-  <p>Hello!</p>
-  <p>Thank you for choosing <strong>SolAds</strong>.</p>
-  <p>We appreciate your trust and will be in touch within 24 hours to discuss the next steps.</p>
-  <p>If you have any urgent questions, please reach our support team:</p>
+  <p>Hi, great to hear from you!</p>
+  <p>Since you found us through our own ads, you’ve already seen <strong>how effective they are.</strong></p>
+  <p>We use <strong>on-chain data to target real users</strong> who are likely interested in your project.</p>
+  <br>
+  <p>Please share a few details about your project:</p>
   <ul>
-    <li>Email: <a href="mailto:support@solads.com">contact@solads.com</a></li>
+    <li><strong>What is it all about?</strong></li>
+    <li><strong>What kind of audience are you looking to reach?</strong></li>
+    <li><strong>Any budget range we should keep in mind?</strong></li>
   </ul>
-  <p>Best regards,</p>
-  <p><strong>The SolAds Team</strong></p>
+  <p>Looking forward to hearing from you!</p>
+  <br>
+  <p><strong>The SolAds Team</strong><br>
+  <a href="https://solads.biz">solads.biz</a></p>
 `;
 
 	try {
@@ -63,7 +68,7 @@ export async function POST(request: Request) {
 
 		const raw = `From: "${emailUser}" <${emailUser}>
 To: "${to}" <${to}>
-Subject: Title
+Subject: ${title}
 Date: ${new Date().toUTCString()}
 Content-Type: text/html; charset=utf-8
 ${description}
