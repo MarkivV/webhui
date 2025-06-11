@@ -34,9 +34,7 @@ Since you found us through our own ads, you’ve already seen how effective they
 
 We use on-chain data to target real users who are likely interested in your project.
 
-Feel free to share more about what you do or ask any questions.
-
-When you're ready, let us know which package you prefer. Our 1M impressions package is the most popular to start seeing results. Once confirmed, we can process payment and launch your campaign right away.
+Please share what’s your project all about? What kind of audience are you looking to reach? Any budget range we should keep in mind?
 
 Looking forward to hearing from you!
 
