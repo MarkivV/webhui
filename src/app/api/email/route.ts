@@ -29,13 +29,16 @@ export async function POST(request: Request) {
 	const title = "Your ads on Solana blockchain";
 	const description = `
   <p>Hi, great to hear from you!</p>
-  <p>Since you found us through our own ads, you’ve already seen how effective they are.</p>
-  <p>We use on-chain data to target real users who are likely interested in your project.</p>
-  <p>Please share what’s your project all about? What kind of audience are you looking to reach? Any budget range we should keep in mind?</p>
-  <p>Looking forward to hearing from you</p>
-  <p><a href="https://solads.biz">solads.biz</a></p>
+  <p>You found us through our own ads — the best proof they work.</p>
+  <p>We use on-chain data to reach real users interested in your project.</p>
+  <p>To get started, just reply with:</p>
+  <p>– A short line about your project</p>
+  <p>– Target audience</p>
+  <p>– Rough budget (a range is fine)</p>
+  <p>From there, we can tune your campaign and launch fast.</p>
+  <p>Ready when you are!</p>
+	<p><a href="https://solads.biz">solads.biz</a></p>
 `;
-
 	try {
 		await transporter.sendMail({
 			from: emailUser,
