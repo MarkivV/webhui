@@ -31,10 +31,12 @@ export async function POST(request: Request) {
   <p>Hi, great to hear from you!</p>
   <p>You found us through our own ads — the best proof they work.</p>
   <p>We use on-chain data to reach real users interested in your project.</p>
-  <p>To get started, just reply with:</p>
-  <p>– A short line about your project</p>
-  <p>– Target audience</p>
-  <p>– Rough budget (a range is fine)</p>
+	<p>
+	  To get started, just reply with:<br>
+	  – A short line about your project<br>
+	  – Target audience<br>
+	  – Rough budget (a range is fine)
+	</p>
   <p>From there, we can tune your campaign and launch fast.</p>
   <p>Ready when you are!</p>
 	<p><a href="https://solads.biz">solads.biz</a></p>
